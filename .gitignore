@@ -1,0 +1,9 @@
+/toolchain
+/libs
+/gmp-*
+/mpfr-*
+/mpc-*
+/build-*
+/binutils-*
+/or1k-*
+/vasm

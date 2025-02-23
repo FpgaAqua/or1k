@@ -1,0 +1,12 @@
+diff -urp old/configure new/configure
+--- old/configure	2022-02-02 12:11:56
++++ new/configure	2023-08-13 21:02:11
+@@ -2890,7 +2890,7 @@ skipdirs=
+ # Skipdirs are removed silently.
+ skipdirs=
+ # Noconfigdirs are removed loudly.
+-noconfigdirs=""
++noconfigdirs="sim gdb"
+ 
+ use_gnu_ld=
+ # Make sure we don't let GNU ld be added if we didn't want it.
